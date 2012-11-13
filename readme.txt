@@ -21,6 +21,12 @@ A simple add-on which allows you to customise the default EDD Purchase Receipt E
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to Downloads > Settings > Emails and selected the 'Customised' email template from the dropdown.
 
+== Screenshots ==
+
+1. Purchase Receipt Preview
+2. Configuration Settings
+3. Colorpicker to change the colors
+
 == Changelog ==
 
 = 1.0 =
