@@ -1,5 +1,5 @@
 === EDD Email Templates Customiser ===
-Contributors: sunnyratilal, boddhi
+Contributors: sunnyratilal, fxbenard
 Donate link: http://pippinsplugins.com/support-the-site/
 Tags: easy digital downloads, edd, sunny ratilal, sunnyratilal
 Requires at least: 3.3

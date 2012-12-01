@@ -25,7 +25,7 @@ along with EDD Email Templates Customiser. If not, see <http://www.gnu.org/licen
 */
 
 /* PHP Hack to Get Plugin Headers in the .POT File */
-	$edd_plugin_header_translate = array(
+	$edd_etc_plugin_header_translate = array(
 		__( 'EDD Email Templates Customiser', 'edd_etc' ),
     	__( 'Customise the default email template in Easy Digital Downloads', 'edd_etc' ),
     	__( 'Sunny Ratilal', 'edd_etc' ),
