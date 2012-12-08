@@ -29,6 +29,9 @@ A simple add-on which allows you to customise the default EDD Purchase Receipt E
 
 == Changelog ==
 
+= 1.0.2 =
+* Updated translations
+
 = 1.0.1 =
 
 * Updated WP.org username
