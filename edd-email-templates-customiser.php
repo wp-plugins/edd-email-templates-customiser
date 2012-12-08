@@ -5,7 +5,7 @@ Plugin URI: http://github.com/sunnyratilal/EDD-Email-Templates-Customiser
 Description: Customise the default email template in Easy Digital Downloads
 Author: Sunny Ratilal
 Author URI: http://twitter.com/sunnyratilal
-Version: 1.0
+Version: 1.0.2
 Text Domain: edd_etc
 Domain Path: languages
 
