@@ -3,8 +3,8 @@ Contributors: sunnyratilal, fxbenard
 Donate link: http://pippinsplugins.com/support-the-site/
 Tags: easy digital downloads, edd, sunny ratilal, sunnyratilal
 Requires at least: 3.3
-Tested up to: 3.4.2
-Stable tag: 1.0.2.1
+Tested up to: 3.5
+Stable tag: 1.0.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ A simple add-on which allows you to customise the default EDD Purchase Receipt E
 3. Colorpicker to change the colors
 
 == Changelog ==
+
+= 1.0.2.2 =
+* Updated translation files
 
 = 1.0.2.1 =
 * Fixed minor bug with translations

@@ -5,7 +5,7 @@ Plugin URI: http://github.com/sunnyratilal/EDD-Email-Templates-Customiser
 Description: Customise the default email template in Easy Digital Downloads
 Author: Sunny Ratilal
 Author URI: http://twitter.com/sunnyratilal
-Version: 1.0.2.1
+Version: 1.0.2.2
 Text Domain: edd_etc
 Domain Path: languages
 
@@ -24,22 +24,13 @@ You should have received a copy of the GNU General Public License
 along with EDD Email Templates Customiser. If not, see <http://www.gnu.org/licenses/>.
 */
 
-/* PHP Hack to Get Plugin Headers in the .POT File */
-	$edd_etc_plugin_header_translate = array(
-		__( 'EDD Email Templates Customiser', 'edd_etc' ),
-		__( 'Customise the default email template in Easy Digital Downloads', 'edd_etc' ),
-		__( 'Sunny Ratilal', 'edd_etc' ),
-		__( 'http://github.com/sunnyratilal/EDD-Email-Templates-Customiser', 'edd_etc' ),
-    );
-
-
 global $edd_options;
 
 /**
  * Constants
  */
 if( !defined( 'EDD_ETC_VERSION' ) ) {
-	define( 'EDD_ETC_VERSION', '1.0' );
+	define( 'EDD_ETC_VERSION', '1.0.2.2' );
 }
 if( !defined( 'EDD_ETC_PLUGIN_URL' ) ) {
 	define( 'EDD_ETC_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
@@ -55,11 +46,17 @@ include_once( EDD_ETC_PLUGIN_DIR . 'includes/scripts.php' );
 include_once( EDD_ETC_PLUGIN_DIR . 'includes/email-template.php' );
 
 /**
- * Localization.
+ * Localization
  *
  * @since 1.0
+ *
+ * @uses dirname()
+ * @uses plugin_basename()
+ * @uses apply_filters()
+ * @uses get_locale()
+ * @uses load_textdomain()
+ * @uses load_plugin_textdomain()
  */
-
 function edd_etc_textdomain() {
 	// Set filter for plugin's languages directory
 	$edd_etc_lang_dir = dirname( plugin_basename( EDD_ETC_PLUGIN_FILE ) ) . '/languages/';
@@ -77,7 +74,7 @@ function edd_etc_textdomain() {
 		// Look in global /wp-content/languages/edd/edd_etc folder
 		load_textdomain( 'edd_etc', $mofile_global );
 	} elseif ( file_exists( $mofile_local ) ) {
-		// Look in local /wp-content/plugins/edd-email-templates-customizer/languages/ folder
+		// Look in local /wp-content/plugins/edd-email-templates-customiser/languages/ folder
 		load_textdomain( 'edd_etc', $mofile_local );
 	} else {
 		// Load the default language files
