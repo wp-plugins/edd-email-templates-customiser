@@ -44,7 +44,7 @@ add_filter( 'edd_email_templates', 'edd_etc_register_templates' );
 function edd_etc_register_colorpickers( $settings ) {
 	global $edd_options;
 
-	if ( $edd_options['email_template'] == 'customised' ) {
+	if ( isset( $edd_options['email_template'] ) && $edd_options['email_template'] == 'customised' ) {
 		$edd_etc_settings = array(
 			array(
 				'id'         => 'edd_etc_email_body_background_color',
