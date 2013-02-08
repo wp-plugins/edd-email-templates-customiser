@@ -6,7 +6,7 @@
  *
  * @package     EDD Email Templates Customiser
  * @subpackage  Email Template
- * @copyright   Copyright (c) 2012, Sunny Ratilal
+ * @copyright   Copyright (c) 2013, Sunny Ratilal
  * @since		1.0
  **/
 
