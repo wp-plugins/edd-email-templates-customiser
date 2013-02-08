@@ -4,7 +4,7 @@ Donate link: http://pippinsplugins.com/support-the-site/
 Tags: easy digital downloads, edd, sunny ratilal, sunnyratilal
 Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 1.0.2.2
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,9 @@ A simple add-on which allows you to customise the default EDD Purchase Receipt E
 
 == Changelog ==
 
+= 1.1 =
+Fixed minor bug with the settings
+
 = 1.0.2.2 =
 * Updated translation files
 
@@ -39,10 +42,8 @@ A simple add-on which allows you to customise the default EDD Purchase Receipt E
 * Updated translations
 
 = 1.0.1 =
-
 * Updated WP.org username
 * Changed Plugin Headers to remove conflict
 
 = 1.0 =
-
 * Initial release.
