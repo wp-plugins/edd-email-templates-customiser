@@ -1,14 +1,13 @@
 <?php
 /*
 Plugin Name: EDD Email Templates Customiser
-Plugin URI: http://github.com/sunnyratilal/EDD-Email-Templates-Customiser
+Plugin URI: http://wordpress.org/extend/plugins/edd-email-templates-customiser/
 Description: Customise the default email template in Easy Digital Downloads
 Author: Sunny Ratilal
 Author URI: http://twitter.com/sunnyratilal
 Version: 1.1
 Text Domain: edd_etc
 Domain Path: languages
-
 
 EDD Email Templates Customiser is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -29,16 +28,16 @@ global $edd_options;
 /**
  * Constants
  */
-if( !defined( 'EDD_ETC_VERSION' ) ) {
+if ( ! defined( 'EDD_ETC_VERSION' ) ) {
 	define( 'EDD_ETC_VERSION', '1.1' );
 }
-if( !defined( 'EDD_ETC_PLUGIN_URL' ) ) {
+if ( ! defined( 'EDD_ETC_PLUGIN_URL' ) ) {
 	define( 'EDD_ETC_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 }
-if( !defined( 'EDD_ETC_PLUGIN_DIR' ) ) {
+if ( ! defined( 'EDD_ETC_PLUGIN_DIR' ) ) {
 	define( 'EDD_ETC_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 }
-if( !defined( 'EDD_ETC_PLUGIN_FILE' ) ) {
+if ( ! defined( 'EDD_ETC_PLUGIN_FILE' ) ) {
 	define( 'EDD_ETC_PLUGIN_FILE', __FILE__ );
 }
 
@@ -49,13 +48,6 @@ include_once( EDD_ETC_PLUGIN_DIR . 'includes/email-template.php' );
  * Localization
  *
  * @since 1.0
- *
- * @uses dirname()
- * @uses plugin_basename()
- * @uses apply_filters()
- * @uses get_locale()
- * @uses load_textdomain()
- * @uses load_plugin_textdomain()
  */
 function edd_etc_textdomain() {
 	// Set filter for plugin's languages directory

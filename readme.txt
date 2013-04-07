@@ -1,19 +1,18 @@
 === EDD Email Templates Customiser ===
-Contributors: sunnyratilal, fxbenard
+Contributors: sunnyratilal
 Donate link: http://pippinsplugins.com/support-the-site/
 Tags: easy digital downloads, edd, sunny ratilal, sunnyratilal
 Requires at least: 3.3
-Tested up to: 3.5
+Tested up to: 3.6
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-
-An add-on for Easy Digital Downloads to customise email templates.
+An add-on for Easy Digital Downloads to customise the styling of the default email template.
 
 == Description ==
 
-A simple add-on which allows you to customise the default EDD Purchase Receipt Email Template by the use of colorpickers and various other options.
+Customisation is key to provide an personal experience to your users. This plugin is add-on for the extremely popular Easy Digital Downloads eCommerce plugin. This plugin adds colorpickers and various other styling options to customise the default email template provided by Easy Digital Downloads.
 
 == Installation ==
 
